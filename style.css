@@ -8,6 +8,22 @@
    Reset
 ========================== */
 
+.home{
+    width:100%;
+    min-height:100vh;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    align-items:center;
+    gap:3rem;
+
+    background:
+        linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+        url("aboutjpg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
 *{
     margin:0;
     padding:0;
